@@ -1,0 +1,10 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    height: calc(100vh - 10vh);
+}
+
+.content-container {
+    width: calc(100% - 230px);
+    padding: 2rem;
+}

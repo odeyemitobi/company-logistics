@@ -1,0 +1,147 @@
+/* Default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Poppins", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+.navbar-sec {
+  display: flex;
+  justify-content: space-between;
+  min-height: 10vh;
+  height: 10vh;
+  width: 100%;
+  background-color: #242424;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-dsg img {
+  height: 80px;
+  padding: 10px;
+}
+
+.search-sec {
+  padding-top: 25px;
+  width: 20%;
+  text-align-last: justify;
+}
+
+.search-sec input[type="text"] {
+  color: #ffffff;
+  width: 150px;
+  background-color: transparent;
+  transition: width 1s ease-in-out;
+}
+
+.search-sec input[type="text"]:focus {
+  width: 100%;
+}
+
+.nav-menu2 {
+  background-color: #242424;
+  width: 230px;
+  border-right: 2px solid red;
+}
+
+.menu-bars {
+  font-size: 1rem;
+  font-weight: 700;
+  background: none;
+  color: #ffffff;
+  display: flex;
+  padding-left: 20px;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 12px 8px;
+  list-style: none;
+  height: 20px;
+  font-size: 1.1rem;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.nav-text:hover {
+  background-color: rgba(99, 95, 199, 0.1);
+  border-radius: 0px 26px 26px 0px;
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav-text:hover a {
+  color: #ffffff;
+}
+
+.nav-menu-items {
+  width: 100%;
+  margin-left: -38px;
+}
+
+.nav-menu-items a {
+    text-decoration: none!important;
+}
+
+.navbar-board {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 43px;
+}
+
+span {
+  margin-left: 16px;
+}
+
+.customer-sec {
+  margin-bottom: .5rem;
+  margin-left: 35px;
+  width: 100%;
+}
